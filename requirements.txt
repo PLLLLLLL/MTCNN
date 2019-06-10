@@ -1,0 +1,5 @@
+python==3.6
+mxnet
+opencv-python
+把报错的from itertools import izip注释掉，下面加一行试试看
+izip = zip
