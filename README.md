@@ -27,11 +27,11 @@ run:
 
 you can change `ctx` to `mx.gpu(0)` for faster detection
 
---- update 20161028 ---
+--- update  ---
 
 by setting ``num_worker=4``  ``accurate_landmark=False`` we can reduce the detection time by 1/4-1/3, the bboxes are still the same, but we skip the last landmark fine-tune stage( mtcnn_v1 ). 
 
---- update 20161207 ---
+--- update  ---
 
 add function `extract_face_chips`, examples:
 
@@ -49,4 +49,4 @@ see `mtcnn_detector.py` for the details about the parameters. this function use 
 
 K. Zhang and Z. Zhang and Z. Li and Y. Qiao Joint,  Face Detection and Alignment Using Multitask Cascaded Convolutional Networks, IEEE Signal Processing Letters
 # MTCNN
-https://github.com/YYuanAnyVision/mxnet_mtcnn_face_detection
+Reference: https://github.com/YYuanAnyVision/mxnet_mtcnn_face_detection
